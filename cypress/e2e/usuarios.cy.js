@@ -23,7 +23,7 @@ describe('Cadastro Simples de Usuário', () => {
     }).should((response) => {
       userID = response.body._id;
       expect(response.status).to.eq(201);
-      expect(response.body).to.have.property('message', 'Cadastro realizado com sucesso!!!!!!');
+      expect(response.body).to.have.property('message', 'Cadastro realizado com sucesso');
     })
   })
 
