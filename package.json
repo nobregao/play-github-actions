@@ -1,0 +1,28 @@
+{
+  "name": "xpeducacao",
+  "version": "1.0.0",
+  "description": "Testes Automatizados de API",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barbaracabral/serverRestAPI.git"
+  },
+  "keywords": [
+    "test",
+    "cypress",
+    "xpeducacao"
+  ],
+  "author": "Bárbara Cabral da Conceição",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barbaracabral/serverRestAPI/issues"
+  },
+  "homepage": "https://github.com/barbaracabral/serverRestAPI#readme",
+  "dependencies": {
+    "cypress": "^10.11.0",
+    "unique-names-generator": "^4.7.1"
+  }
+}

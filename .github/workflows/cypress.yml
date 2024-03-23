@@ -1,0 +1,12 @@
+name: Cypress Tests Run on Pipeline
+
+on: [push]
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false # https://github.com/cypress-io/github-action/issues/48
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
